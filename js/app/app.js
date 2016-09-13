@@ -1,19 +1,19 @@
 function Router($stateProvider) {
   $stateProvider
     .state('home', {
-      url: '/home',
+      url: '/',
       templateUrl: 'views/home.html'
     })
     .state('home.timeline', {
-      url: '/timeline',
+      url: 'timeline',
       templateUrl: 'views/home/timeline.html'
     })
     .state('home.notifications', {
-      url: '/notifications',
+      url: 'notifications',
       templateUrl: 'views/home/notifications.html'
     })
-    .state('home.profile', {
-      url: '/profile',
+    .state('home.user', {
+      url: 'user',
       templateUrl: 'views/home/user.html'
     })
 }
